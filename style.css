@@ -1,0 +1,64 @@
+/* Global styles */
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif; /* Use Arial font */
+  margin: 0;
+  padding: 0;
+  background-color: #fff6f8; /* Soft pink background */
+}
+
+/* Header styles */
+header {
+  text-align: center;
+  padding: 30px 0;
+  background-color: #fdc9d1; /* Light pink background */
+  color: #333; /* Dark gray text color */
+}
+
+/* Main content styles */
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0px;
+}
+
+/* Animal section styles */
+.animal {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ffb6c1;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+/*so it hovers over the images*/
+.animal:hover {
+  transform: translateY(-5px);
+}
+
+/* Image styles */
+.animal img {
+  border: 5px solid #ffb6c1; /* Light pink border */
+  width: 200px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.animal:hover img {
+  transform: scale(1.1);
+}
+
+/* Animal name styles */
+.animal h2 {
+  text-align: center;
+  margin-top: 10px;
+  color: #ff6b81; /* Reddish-pink text color */
+  font-family: 'Georgia', serif; 
+}
+footer {
+  background-color: #fdc9d1;
+  text-align: center;
+  padding: 10px 0;
+}
